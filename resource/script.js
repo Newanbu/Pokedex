@@ -11,7 +11,9 @@ divInterno.classList.add("divInterno");
 
 formulario.addEventListener("submit", (e) => {
   e.preventDefault();
-  const pokemon = document.getElementById("ciudad").value;
+  let pokemon = document.getElementById("ciudad").value;
+  pokemon = pokemon.toLowerCase(); 
+
   fetch(
     `https://pokeapi.co/api/v2/pokemon/${pokemon}`
   )
