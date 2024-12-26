@@ -1,0 +1,104 @@
+body{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+height: 100vh;
+margin: 0;
+padding: 0;
+background-image: url(assets/fondo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.seccion{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+#formulario{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    float: right;
+}
+label{
+    display: block;
+    font-size: 25px;
+}
+input{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.divHtml{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divInterno{
+    width: 60%;
+    margin: 30px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.buttonEnviar{
+    padding: 9px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 15px;
+}
+.buttonCambio{
+    padding: 9px;
+    margin:10px;
+    
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px){
+    .divInterno{
+        width: 90%;
+    }
+    .buttonEnviar{
+        padding: 9px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: 1px solid gray;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 15px;
+    }
+    .buttonCambio{
+        padding: 9px;
+        margin:10px;
+        
+    }
+    input{
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: 1px solid gray;
+    }
+    label{
+        display: block;
+        font-size: 20px;
+    }
+    
+}
